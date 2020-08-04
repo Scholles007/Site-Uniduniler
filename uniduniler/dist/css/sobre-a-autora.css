@@ -1,0 +1,218 @@
+body{
+	background-image: url(../img/backg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0rem;
+}
+
+
+ @media all and (max-width: 800px) { 
+	body{
+		background-position: 0 7rem;
+		background-attachment: scroll;
+	}
+ }
+ @media all and (max-width: 570px) { 
+	body{
+		background-position: 0 10rem;
+		background-attachment: scroll;
+	}
+ }
+
+  @media all and (max-width: 400px) { 
+	body{
+		background-position: 0 12rem;
+		background-attachment: scroll;
+	}
+ }
+
+
+  .primeiro{
+ 	background-color: #7d979b!important;
+ }
+
+ .bodyp{
+ 	height: 100%;
+ 	background-color: white;
+ }
+
+ .c1{
+ 	height: 100%;
+    width:100%;
+ }
+
+ .l1{
+ 	height: 10%;
+ 	width: 10%;
+ }
+
+.capas{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 100%;
+}
+
+.sppa{
+  padding: 2% 0 2% 0;
+}
+
+.mm2{
+  font-size: 22px;
+}
+
+.minas{
+  margin-top: 15%;
+}
+
+.pipa2{
+  margin-top: 10%;
+  margin-left: 5%;
+  transform: rotate(25deg);
+}
+
+.carousel-inner{
+  min-height: 320px;
+}
+
+.record{
+  margin-top: 8%;
+}
+
+.record2{
+  margin-top: 0%;
+}
+
+.cor3{
+  background-color: #7d979b;
+}
+
+.texto79{
+  text-align: justify-all;
+  font-size: 17px;
+  color:white;
+}
+
+.botao_cinza{
+	background-color: rgba(0,0,0,0.4);
+	width:200px;
+	height: 50px;
+}
+
+.botao_cinza:hover{
+	background-color: #a7c9ce;
+	transition-duration: 1.2s;
+}
+
+.btn-borboleta{
+  margin-top: 50px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.btn-borboleta2{
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.botao_haha:hover {
+  background-color: #a7c9ce;
+  transition-duration: 1s;
+}
+
+.botao_haha2{
+  
+}
+
+
+.botao_haha2:hover {
+  background-color: #a7c9ce;
+  transition-duration: 1s;
+}
+
+.texto_button{
+  font-family: poppinsextra;
+  font-weight: 10!important;
+  font-size: 20px;
+  padding-top: 3px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+.texto_button3{
+  font-family: poppinsextra;
+  font-weight: 10!important;
+  font-size: 20px;
+  padding-top: 8px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+.texto_button2{
+  font-family: poppinsextra;
+  font-weight: 10!important;
+  font-size: 14px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.borboleta22{
+	position: relative;
+	z-index: 1;
+}
+
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:rgba(0,0,0,0); color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+.flor1{
+	position: relative;
+	z-index: 2;
+}
+
+.flor2{
+	position: relative;
+	z-index: 2;
+}
+
+.flor3{
+	position: relative;
+	z-index: 2;
+}
+
+.owl-nav i {
+  font-size: 52px;
+  color:rgb(167,201,206);
+  /*background-color: white;*/
+  filter: opacity(90%);
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -15px;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -0px;
+}

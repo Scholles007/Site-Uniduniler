@@ -1,0 +1,236 @@
+@media all and (max-width: 1200px) { 
+
+	.texto_button33{
+		font-size:14px!important;
+		padding-top: 2%!important;
+	}
+
+}
+
+
+@media all and (max-width: 1000px) { 
+
+	.letrao{
+		font-size:250px!important;
+	}
+
+	.texto_button33{
+		font-size:10px!important;
+		padding-top: 2%!important;
+	}
+
+}
+
+@media all and (max-width: 980px) { 
+
+	.festivalit{
+		margin:-20% 0 0% 3%!important;
+	}
+
+}
+
+@media all and (max-width: 765px) { 
+
+	.botao_haha{
+		max-width: 40%!important;
+	}
+
+}
+
+
+.festivalit{
+	margin:-30% 0 0% 3%;
+}
+
+.carousel{
+	margin-top:10px;
+	background-color: #a7c9ce;
+}
+
+.cor2{
+	background-color: #546567!important;
+}
+
+.letrao{
+	font-family: poppinsextra;
+	font-size:200px;
+	font-style: italic;
+	color: #D1E4E7;
+	position:relative;
+	z-index:1;
+}
+
+body{
+	background-color: #a7c9ce;
+}
+
+.tudo{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.letra{
+	position: relative;
+	margin-top: -70px;
+	white-space: nowrap!important;
+}
+
+.b1{
+	margin-top:-70px;
+	transform: rotate(40deg);
+}
+
+.depoimento2{
+	margin-top:20%!important;
+	background-color: #d1e4e7;
+	text-align: justify;
+}
+
+.subida{
+	position: relative;
+	margin-top: -10%;
+}
+
+.px1{
+	margin-bottom: 10%;
+}
+
+.px4{
+	margin-bottom: 15%;
+}
+
+.video2{
+	margin-top:8%!important;
+	margin-left:-28%!important;
+}
+
+.depoimento3{
+	background-color: #d1e4e7;
+	margin-top:8%!important;
+	text-align: justify;
+}
+
+.depoimento4{
+	background-color: #d1e4e7;
+	margin-top:0%!important;
+	text-align: justify;
+}
+
+
+.amaticregular{
+	font-size:18px;
+	margin: 10px;
+}
+
+.f1{
+	font-size: 20px;
+}
+
+.b2{
+	position: relative;
+	z-index: 4;
+	display: block;
+	margin-right: 15px;
+	transform: rotate(25deg);
+}
+
+.b3{
+	position: relative;
+	z-index: 3;
+	display: block;
+	transform: rotateY(180deg);
+	margin-top: 50%;
+}
+
+.b5{
+	margin-top: 20%;
+	transform: rotate(60deg);
+}
+
+.b5a{
+	font-weight: bold
+}
+
+.s1{
+	margin-top: 3%;
+}
+
+.suba2{
+	margin-top: -5%;
+}
+
+.datac{
+	font-size:40px;
+	color:white;
+	width: 100%;
+	padding-left: 25px;
+}
+
+.textoc{
+	color:white;
+	font-size: 12px;
+	width: 100%;
+}
+
+.centroz{
+	text-align: center!important;
+}
+
+.carousel-item{
+	padding: 30px 0 30px 0!important;
+}
+
+.btn-borboleta{
+  margin-top: 50px;
+}
+
+.botao_haha:hover {
+  background-color: #a7c9ce;
+  transition-duration: 1s;
+}
+
+.texto_button{
+  font-family: poppinsextra;
+  font-weight: 10!important;
+  font-size: 24px;
+  padding-top: 3px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+.texto_button33{
+  font-family: poppinsextra;
+  font-weight: 10!important;
+  font-size: 18px;
+  padding-top: 3px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.botao_haha{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:rgba(0,0,0,0); color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+.borboleta34{
+	position:relative;
+	margin-top:-325px;
+	margin-left: 30px;
+}
+        

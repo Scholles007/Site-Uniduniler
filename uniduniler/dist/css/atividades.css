@@ -1,0 +1,504 @@
+@font-face {
+    font-family: poppins-extralight;
+    src: url(fonts/Poppins-ExtraLight.otf);
+}
+
+.bloco1{
+    background-color: #77979b;
+    width: 100%;
+    min-height: 30%;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+.bloco2{
+    background-color: #D1E4E7;
+    width: 100%;
+    min-height: 30%;
+    margin: 0.5% 1.5% 0 1.5%;
+    text-align: center;
+}
+
+.dd88{
+    margin-left: 15%;
+}
+
+.bloco2e{
+    background-color: #D1E4E7;
+    width: 70%;
+    min-height: 30%;
+    margin: 0.5% 1.5% 0 15.5%;
+    text-align: center;
+}
+
+.bloco1 p{
+   margin-bottom: 2.5%;
+}
+
+.bloco2 p{
+   margin-bottom: 2.5%;
+}
+
+.tituloa{
+    font-family: poppinsextra;
+    font-size: 16px;
+    font-weight: 50;
+    color: white;
+}
+
+.titulob{
+    font-family: poppinsextra;
+    font-size: 16px;
+    font-weight: 50;
+    color: black;
+}
+
+.dbranco{
+    font-family: poppinsextra;
+    font-size: 12px;
+    font-weight: 50;
+    color: white;
+}
+
+.texto1e{
+    font-family: poppinsextra;
+    font-size: 10px;
+    font-weight: 50;
+    color: #D1E4E7;
+}
+
+.texto2e{
+    font-family: poppinsextra;
+    font-size: 10px;
+    font-weight: 50;
+    color: #2d3637;
+}
+
+.dpreto{
+    font-family: poppinsextra;
+    font-size: 12px;
+    font-weight: 50;
+    color: black;
+}
+
+.dvideo{
+    background-color:#2d3637;
+    width: 88%;
+    margin: 1% 0 1% 0%;
+    text-align: center;
+}
+
+.mov{
+    margin-left: -10%;
+}
+
+.dvideo:hover{
+    background-color:#9fcace;
+    transition-duration: 0.4s;
+}
+
+.videot{
+    font-family: poppinsextra;
+    font-size: 18px;
+    font-weight: 50;
+    color: #D1E4E7;
+}
+
+.videot:hover{
+    color:white;
+    transition-duration: 0.4s;
+}
+
+.card_text{
+    text-align: center;
+    text-size-adjust: 10px;
+    font-family: poppins-extralight, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card_title{
+    text-align: center;
+    text-size-adjust: 14px;
+    font-family: poppins-extralight;
+}
+
+.botao_haha {
+    background-color: #AAA;
+    position: relative;
+    text-decoration: none;
+}
+
+.letrao{
+    font-family: poppinsextra;
+    font-size:150px;
+    font-style: italic;
+    color: #9fcace;
+}
+
+
+.dd2{
+    margin-top:13%;
+    white-space: nowrap;
+}
+
+.dd23{
+    margin-top:13%;
+    white-space: nowrap;
+}
+
+.suba{
+    margin-top: -45px;
+}
+
+.titulozao{
+    font-family: poppinsextra;
+    font-size:45px;
+}
+
+.titulozaoxx{
+    font-family: poppinsextra;
+    font-size:38px;
+}
+
+.titulozao4{
+    font-family: poppinsextra;
+    font-size:25px;
+}
+
+.titulozinho4{
+    font-family: marmaladeregular;
+    font-size:66px;
+}
+.titulozinho3{
+    font-family: marmaladeregular;
+    font-size:40px;
+}
+
+.titulozinho{
+    font-family: marmaladeregular;
+    font-size:45px;
+}
+ 
+.poppins{
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    font-family: poppins-extralight,poppins,sans-serif;
+    width: 81%;
+    color:gray;
+}
+
+
+.btn-borboleta{
+    margin-top: 50px;
+}
+.botao_haha:hover {
+    background-color: #a7c9ce;
+    transition-duration: 1s;
+}
+  
+.texto_button{
+    font-family: Brandon Grotesque, serif;
+    font-weight: 10!important;
+    font-size: 22px;
+    padding-top: 3px;
+    color:#000000;
+    border: none;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+
+.IMGcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+  
+.TEXTcenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    text-align: center;
+}
+  
+
+.tamanhoTitulo {
+    font-size: 20px;
+}
+  
+.tamanhoData {
+    font-size: 13px;
+}
+
+.tamanhoResumo {
+    font-size: 13px;
+}
+
+.botao {
+    background-color: #AAA;
+    position: relative;
+}
+
+.texto_botao{
+    font-family: Brandon Grotesque, serif;
+    font-size: 23px;
+    padding-top: 3px;
+}
+
+.imagemP{
+   position:relative;
+}
+
+.imagemS {
+    width:0px; /* largura da imagem máscara */
+    height:0px; /* altura da imagem máscara */
+    position:absolute;
+    top:0;
+    left:0;
+    background:url(img/Galho2.png) 0 0 no-repeat; /* imagem máscara */
+}
+  
+.ramo1 {
+    position:absolute;
+    padding-top: 30px;
+    padding-left: 123px;
+}
+.galho2 {
+    position:absolute;
+    padding-bottom: 100px;
+    padding-left: 0px;
+}
+
+.unesco{
+    margin-left: 30px;
+}
+  
+.botao_ir {
+    background-color: #AAA;
+    margin-left: 55px;
+    position: relative;
+    text-decoration: none;
+}
+
+.botao_ir:hover {
+    background-color: #a7c9ce;
+    transition-duration: 1s;
+}
+
+.texto_button{
+    font-family: Brandon Grotesque, serif;
+    font-size: 22px;
+    padding-top: 3px;
+    color:#000000;
+    border: none;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+@media all and (max-width: 1200px) { 
+    
+  .ex1{
+        margin: -19% 0 0 80%!important;
+    }
+
+   .titulozaoxx{
+    font-size: 30px!important;
+   }
+
+   .titulozinho4{
+    font-size: 48px!important;
+   }
+
+   .ex5{
+    margin: -8% 0 0 42%!important;
+   }
+
+   .dd8{
+    margin-left: 10%;
+   }
+
+   .dd6{
+    margin-left: 5%;
+   }
+
+   .ex61{
+    display: none!important;
+   }
+
+   .ex6{
+    margin: -3% 0 0 47%!important;
+   }
+
+   .dd2{
+    margin-top:15%;
+    margin-left: 10%;
+   }
+
+    .dd23{
+    margin-top:18%;
+    white-space: nowrap;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .ex1{
+        margin: -10% 0 0 80%;
+    }
+
+    .titulozaoxx{
+    font-size: 20px!important;
+   }
+
+   .ex1{
+    display: none;
+}
+
+.ex2{
+    display: none;
+}
+
+.ex3{
+    display: none;
+}
+
+.ex4{
+    display: none;
+}
+
+.ex5{
+    display: none;
+}
+
+.ex6{
+   display: none;
+}
+
+.ex61{
+    display: none;
+}
+
+.col-md-7 > .text-justify{
+    margin-left: 20%!important;
+    margin-bottom: 20%!important;
+}
+
+.dd2{
+    margin-top:24%!important;
+}
+
+.dd23{
+    margin-top:24%!important;
+}
+
+.container > .row > .col-md-5 > .row{
+    margin-left: -10%!important;
+}
+
+
+}
+  
+@media all and (max-width: 780px) { 
+
+    .ex1{
+    display: none;
+}
+
+.ex2{
+    display: none;
+}
+
+.ex3{
+    display: none;
+}
+
+.ex4{
+    display: none;
+}
+
+.ex5{
+    display: none;
+}
+
+.ex6{
+   display: none;
+}
+
+.ex61{
+    display: none;
+}
+
+
+}
+  
+@media all and (max-width: 460px) { 
+    
+  
+}
+    /* Pra celulares !importante */
+@media all and (max-width: 395px) { 
+  
+  
+}
+  
+@media all and (max-width: 352px) { 
+  
+  
+}
+
+.ex1{
+    position: absolute;
+    z-index:3;
+    margin: -15% 0 0 67%;
+}
+
+.ex2{
+    position: absolute;
+    z-index:3;
+    margin: -15% 0 0 47%;
+}
+
+.ex3{
+    position: absolute;
+    z-index:3;
+    margin: -5% 0 0 47%;
+}
+
+.ex4{
+    position: absolute;
+    z-index:3;
+    margin: 0% 0 0 67%;
+}
+
+.ex5{
+    position: absolute;
+    z-index:3;
+    margin: -8% 0 0 47%;
+    transform: rotateY(180deg);
+}
+
+.ex6{
+    position: absolute;
+    z-index:3;
+    margin: -8% 0 0 47%;
+}
+
+.ex61{
+    position: absolute;
+    z-index:3;
+    margin: -8% 0 0 47%;
+}
+
+.dd6{
+    margin-left: 12%;
+}
+

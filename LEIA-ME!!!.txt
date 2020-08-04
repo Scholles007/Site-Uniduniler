@@ -1,0 +1,11 @@
+------------------- LEIA-ME ---------------------------
+
+EM ESTRUTURAÇÃO PRO AGUIAR
+
+-------------------------------------------------------
+
+Miscelânea:
+- Dar responsividade para as tabelas da parte sistema
+- Mostrar os dados da DB na tabela atualidades
+- Editar os itens da tabela Atualidades
+- 

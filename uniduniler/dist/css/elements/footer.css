@@ -1,0 +1,51 @@
+.footer {
+   position: scroll;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #a7c9ce;
+   border: none;
+   color: white;
+   text-align: center;
+   border-top: solid gray 1.4px;
+}
+
+.area1{
+	border-left: dashed gray 1.2px;
+	border-right: dashed gray 1.2px;
+	height: 100%;
+}
+
+.area2{
+	border-right: dashed gray 1.2px;
+	padding: 0 0 0 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.menu1{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-style: italic;
+     color: #546567;
+}
+
+@media all and (max-width: 575px) { 
+	.area2{
+		border-left: dashed gray 1.2px;
+	}
+
+ }
+
+ @media all and (max-width: 460px) { 
+	.logo{
+		padding-left: 5rem;
+	}
+
+ }

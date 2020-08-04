@@ -1,0 +1,286 @@
+.botao_haha {
+  background-color: #AAA;
+  position: relative;
+  text-decoration: none;
+}
+
+.poppins{
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    font-family: poppinsextra;
+    width: 81%;
+}
+
+.titulo23{
+  font-family: marmaladeregular;
+  font-size: 18px;
+}
+
+.data23{
+  font-family: poppinsextra;
+  font-size: 15px;;
+  color: black;
+}
+
+.conteudo23{
+  font-family: poppinsextra;
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+  width: 85%;
+}
+
+.galhoe{
+  position: absolute;
+  z-index:3;
+  margin-left:-80%;
+}
+
+.galhod{
+  position: absolute;
+  z-index:3;
+  margin-right:0;
+}
+
+.botao_haha:hover {
+  background-color: #a7c9ce;
+  transition-duration: 1s;
+}
+
+.texto_button{
+  font-family: poppinsextra;
+  font-weight: 10!important;
+  font-size: 22px;
+  padding-top: 3px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.IMGcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.TEXTcenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    text-align: center
+}
+
+
+.tamanhoTitulo {
+    font-size: 20px;
+}
+
+.tamanhoData {
+    font-size: 13px;
+}
+
+.tamanhoResumo {
+    font-size: 13px;
+    font-family: poppinsextra;
+}
+
+.botao {
+	background-color: #AAA;
+	position: relative;
+}
+
+.texto_botao{
+	font-family: Brandon Grotesque, serif;
+	font-size: 23px;
+	padding-top: 3px;
+}
+
+.imagemP{
+   position:relative;
+}
+
+.imagemS {
+   width:0px; /* largura da imagem máscara */
+   height:0px; /* altura da imagem máscara */
+   position:absolute;
+   top:0;
+   left:0;
+   background:url(img/Galho2.png) 0 0 no-repeat; /* imagem máscara */
+}
+
+.ramo1 {
+    position:absolute;
+    padding-top: 30px;
+    padding-left: 123px;
+}
+.galho2 {
+    position:absolute;
+    padding-bottom: 100px;
+    padding-left: 0px;
+}
+
+.unesco{
+  margin-left: 30px;
+}
+
+.botao_ir {
+  background-color: #AAA;
+  margin-left: 55px;
+  position: relative;
+  text-decoration: none;
+}
+
+.botao_ir:hover {
+  background-color: #a7c9ce;
+  transition-duration: 1s;
+}
+
+.texto_button{
+  font-family: Brandon Grotesque, serif;
+  font-size: 22px;
+  padding-top: 3px;
+  color:#000000;
+  border: none;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media all and (max-width: 920px) { 
+  .idprancha{
+    margin-left: 160px!important;
+  }
+
+  .idbalao{
+    margin-left: 160px!important;
+  }
+
+  .idfoto{
+    margin-left: 160px!important;
+  }
+
+
+  .galho2{
+    display:none!important;
+    position:none!important;
+  }
+
+  .galhoe{
+    display:none!important;
+    position:none!important;
+  }
+
+  .galhod{
+    display:none!important;
+    position:none!important;
+  }
+
+  .ramo1{
+    display:none!important;
+    position:none!important;
+  }
+
+
+ }
+
+@media all and (max-width: 675px) { 
+  .idprancha{
+    margin-left: 30px!important;
+  }
+
+  .idbalao{
+    margin-left: 30px!important;
+  }
+
+  .idfoto{
+    margin-left: 30px!important;
+  }
+
+  .galho2{
+    display:none!important;
+    position:none!important;
+  }
+
+  .galhoe{
+    display:none!important;
+    position:none!important;
+  }
+
+  .galhod{
+    display:none!important;
+    position:none!important;
+  }
+
+  .ramo1{
+    display:none!important;
+    position:none!important;
+  }
+
+  .video{
+    margin-left: 0!important;
+  }
+
+  .unesco{
+    margin-left: 0px;
+  }
+
+
+ }
+
+ @media all and (max-width: 460px) { 
+.idprancha{
+    margin-left: 10px!important;
+  }
+
+  .idbalao{
+    margin-left: 10px!important;
+  }
+
+  .idfoto{
+    margin-left: 10px!important;
+  }
+
+  .galhoe{
+    display:none!important;
+    position:none!important;
+  }
+
+  .galhod{
+    display:none!important;
+    position:none!important;
+  }
+
+  .galho2{
+    display:none!important;
+    position:none!important;
+  }
+
+  .ramo1{
+    display:none!important;
+    position:none!important;
+  }
+
+
+ }
+  /* Pra celulares !importante */
+  @media all and (max-width: 395px) { 
+
+
+ }
+
+ @media all and (max-width: 352px) { 
+
+
+}

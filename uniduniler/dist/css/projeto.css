@@ -1,0 +1,230 @@
+@media all and (max-width: 900px) { 
+
+  .botaoblog{
+  margin: 10px 10px 10px 36%!important;
+}
+
+
+ }
+
+ @media all and (max-width: 480px) { 
+
+  .botaoblog{
+  margin: 10px 10px 10px 32%!important;
+}
+
+
+ }
+
+  @media all and (max-width: 380px) { 
+
+  .botaoblog{
+  margin: 10px 10px 10px 28%!important;
+}
+
+
+ }
+
+
+.textop{
+  font-family:poppinsextra;
+  text-align: center;
+  width: 70%; 
+  margin-left: 15%;
+}
+
+.botaoblog{
+  margin: 10px 10px 10px 42%;
+}
+
+.atleft{
+  margin-left: 5%;
+}
+
+.IMGcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.TEXTcenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    text-align: center
+}
+
+.tamanhoTitulo {
+    font-size: 20px;
+}
+
+.tamanhoData {
+    font-size: 13px;
+}
+
+.tamanhoResumo {
+    font-size: 13px;
+}
+
+.imagemP{
+   position:relative;
+}
+
+.imagemS {
+   width:0px; /* largura da imagem máscara */
+   height:0px; /* altura da imagem máscara */
+   position:absolute;
+   top:0;
+   left:0;
+   background:url(img/Galho2.png) 0 0 no-repeat; /* imagem máscara */
+}
+
+ .containerIMG {
+  position: relative;
+  width: auto;
+}
+
+.imageIMG {
+  display: block;
+  height: 323px;
+  width: 204px;
+}
+
+.overlayIMG {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #a7c9ce;}
+    
+.containerIMG:hover .overlayIMG {
+  opacity: 1;
+}
+
+.textIMG {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+}
+
+.textIMG- {
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.textIMGANO {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* saporra pra baixo n FUNCIONA */
+@media all and (max-width: 920px) { 
+  .idtexto{
+   margin-left: 50px!important;
+  }
+
+  .idBotaoVem{
+   margin-right: 200px!important;
+  }
+
+ }
+
+@media all and (max-width: 675px) { 
+  .idtexto{
+    margin-left: 50px!important;
+  }
+
+  .idBotaoVem{
+   margin-right: 200px!important;
+  }
+
+ }
+
+@media all and (max-width: 460px) { 
+  .idtexto{
+    margin-left: 50px!important;
+  }
+
+  .idBotaoVem{
+   margin-right: 200px!important;
+  }
+
+
+ }
+
+
+ .teste221{
+  background-color: #2d3637;
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+
+ }
+  .teste221p{
+    font-family: poppinsbold;
+    font-size: 32px;
+    color: #A7C9CE;
+    margin-left: 12%;
+ }
+
+.teste222{
+  font-family: poppinsextra;
+  font-size:35px;
+}
+
+.teste222m{
+  font-family: marmaladeregular;
+  font-size:35px;
+  margin-top: -30%;
+}
+
+.direita222{
+  margin-left: 130px;
+}
+
+.owl-nav i {
+  font-size: 52px;
+  color:rgb(167,201,206);
+  /*background-color: white;*/
+  filter: opacity(90%);
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -15px;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -0px;
+}
+
+

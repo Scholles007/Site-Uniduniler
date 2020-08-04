@@ -1,0 +1,11 @@
+@media all and (max-width: 460px) { 
+    .autora{
+      margin-right: 0%;
+      margin-left: 25%;
+    }
+  }
+
+.autora{
+  margin-right: 9%;
+  padding-left: 12%;
+}

@@ -1,0 +1,250 @@
+@font-face {
+    font-family: poppinsextra;
+    src: url(../../fonts/Poppins-ExtraLight.otf);
+}
+@font-face {
+    font-family: poppinsbold;
+    src: url(../../fonts/Poppins-Regular.otf);
+}
+
+@font-face {
+    font-family: poppinsextraitalic;
+    src: url(../../fonts/Poppins-ExtraLightItalic.otf);
+}
+
+/*@font-face {
+    font-family: amaticregular;
+    src: url(../../fonts/AmaticSC-Regular.ttf);
+}*/
+@font-face {
+    font-family: amaticregular;
+    src: url(../../fonts/AustieBostInaRush.ttf);
+}
+
+@font-face {
+    font-family: amaticbold;
+    src: url(../../fonts/AmaticSC-Bold.tff);
+}
+
+@font-face {
+    font-family: marmaladeregular;
+    src: url(../../fonts/marmalade.woff);
+}
+
+.marmalade{
+	font-family: marmaladeregular;
+}
+
+.amaticregular{
+	font-family: amaticregular;
+}
+
+.amaticbold{
+	font-family: amaticbold;
+}
+
+.poppinsextra{
+	font-family: poppinsextra;
+}
+
+.poppinsextraitalic{
+	font-family: poppinsextratalic;
+}
+
+.barranav{
+	padding: 0rem 0rem;
+	box-shadow: 0 0 12px 0 gray;
+}
+
+.borda{
+	border: solid red 2px;
+}
+
+.cont{
+	padding-left: 6rem;
+}
+
+.logo {
+	padding-bottom: 0rem;
+	padding-left: 2rem;
+}
+
+.itembarra{
+	margin-top: 0rem !important;
+	margin-left: 6rem !important;
+	padding-top: 0rem;
+	padding-left: 6rem;
+}
+
+.menubarra{
+	letter-spacing: -0.7px;
+	margin-right: 0.85rem;
+	padding-top: 3rem;
+	padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1);
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    background-image: url(../../img/backg.jpg);
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown:active > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events:none;
+}
+
+.menudropdown{
+	margin-top:0rem;
+	padding-top: 2px;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	text-align: right;
+	font-size: 0.96rem;
+}
+
+.novomenu{
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 60%;
+	box-shadow: 0 0.75px 2px 0.75px gray;
+	font-family: poppins-extralight, poppins, sans-serif !important;
+	font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.4em;
+    text-align: right;
+}
+
+.dropdown-menu{
+	text-align: right;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: gray !important;
+  text-decoration: none;
+  transition-duration: 0.55s;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.teste32{
+	padding:0;
+	margin:0;
+}
+
+.bg-light, .navbar-light{
+	background-color: white !important;
+}
+
+.nomep{
+	padding-top: 1rem;
+	white-space: nowrap;/*Evita quebra de linha*/
+	}
+
+.nomep{
+	font-family: poppins-extralight, poppins, sans-serif !important;
+	font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+
+.item_menudrop{
+	font-size:12px;
+	white-space: nowrap
+}
+
+@media all and (max-width: 993px) { 
+	.novomenu{ 
+		  width: 100%;
+		  border: none;
+		  box-shadow: none;
+		  transition-duration: 2s;
+		  text-align: left;
+	}
+	.nomep{
+		padding-top: 0;
+	}
+	.menubarra{
+		padding-top: 0 !important;
+	}
+	.logo{
+		padding-left: 9rem;
+	}
+
+ }
+
+@media all and (max-width: 575px) { 
+	.novomenu{ 
+		  width: 100%;
+		  border: none;
+		  box-shadow: none;
+		  transition-duration: 2s;
+		  text-align: left;
+	}
+	.nomep{
+		padding-top: 0;
+	}
+	.menubarra{
+		padding-top: 0 !important;
+	}
+	.logo{
+		padding-left: 9rem;
+	}
+
+ }
+
+ @media all and (max-width: 460px) { 
+	.logo{
+		padding-left: 5rem;
+	}
+	.itembarra{
+	margin-left: 4rem !important;
+}
+
+ }
+ 	/* Pra celulares !importante */
+  @media all and (max-width: 395px) { 
+	.logo{
+		padding-left: 2.3rem!important;
+	}
+	.menubarra{
+		padding-right: 0rem!important;
+	}
+	.itembarra{
+	margin-left: 3rem !important;
+}
+
+ }
+
+ @media all and (max-width: 352px) { 
+	.logo{
+		padding-left: 1.2rem!important;
+	}
+	.itembarra{
+	margin-left: 2rem !important;
+}
+
+}
